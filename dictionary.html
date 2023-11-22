@@ -1,0 +1,556 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<title>Erudyte</title>
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/My project-8.png">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/dictionary.min.css">
+
+        <!-- Feather CSS -->
+		<link rel="stylesheet" href="assets/css/feather.css">
+
+		<!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+        <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+        
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+                
+        <!-- Slick CSS -->
+        <link rel="stylesheet" href="assets/plugins/slick/slick.css">
+        <link rel="stylesheet" href="assets/plugins/slick/slick-theme.css">
+                
+        <!-- Select2 CSS -->
+        <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
+                
+        <!-- Aos CSS -->
+        <link rel="stylesheet" href="assets/plugins/aos/aos.css">
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/dictionary.css">
+	
+	</head>
+	<body>
+
+		<!-- Main Wrapper -->
+		<div class="main-wrapper home-slide">
+		
+			<!-- Header -->
+			<header class="header header-page">
+				<div class="header-fixed">
+					<nav class="navbar navbar-expand-lg header-nav scroll-sticky">
+						<div class="container ">
+							<div class="navbar-header">
+								<a id="mobile_btn" href="javascript:void(0);">
+									<span class="bar-icon">
+										<span></span>
+										<span></span>
+										<span></span>
+									</span>
+								</a>
+								<a href="student-dashboard.html" class="navbar-brand logo">
+									<img src="assets/img/erudyte logo-01.png" class="img-fluid" alt="Logo">
+								</a>
+							</div>
+	
+							<ul class="nav header-navbar-rht">
+								
+				
+								<li class="nav-item noti-nav">
+									<a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+										<img src="assets/img/icon/notification.svg" alt="img"> 
+									</a>
+									<div class="notifications dropdown-menu dropdown-menu-right">
+										<div class="topnav-dropdown-header">
+											<span class="notification-title">Notifications
+											<select>
+												<option>All</option>
+												<option>Unread</option>
+											</select>
+											</span>
+											<a href="javascript:void(0)" class="clear-noti">Mark all as read <i class="fa-solid fa-circle-check"></i></a>
+										</div>
+										<div class="noti-content">
+											<ul class="notification-list">
+												<li class="notification-message">
+													<div class="media d-flex">
+														<div>															
+															<a href="notifications.html" class="avatar">
+																<img class="avatar-img" alt="" src="assets/img/student_11.jpg">
+															</a>
+														</div>
+														<div class="media-body">
+															<h6><a href="notifications.html">Zomba invited you <span> to </span> a race </a></h6>
+															<button class="btn btn-accept">Accept</button>
+															<button class="btn btn-reject">Reject</button>
+															<p>Today at 9:42 AM</p>
+														</div>
+													</div>
+												</li>
+											
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="nav-item user-nav">
+									<a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+										<span class="user-img">
+											<img src="assets/img/user_estevan.jpg" alt="">
+											<span class="status online"></span>
+										</span>
+									</a>
+									<div class="users dropdown-menu dropdown-menu-right" data-popper-placement="bottom-end" >
+										<div class="user-header">
+											<div class="avatar avatar-sm">
+												<img src="assets/img/user_estevan.jpg" alt="User Image" class="avatar-img rounded-circle">
+											</div>
+											<div class="user-text">
+												<h6>Estevan Flores</h6>
+												<p class="text-muted mb-0">Student</p>
+											</div>
+										</div>
+										
+										<a class="dropdown-item" href="login.html"><i class="feather-log-out me-1"></i> Logout</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
+			<!-- /Header -->
+			
+			<!-- Page Wrapper -->
+			<div class="page-content instructor-page-content">
+				<div class="container">
+					<div class="row">
+						
+						<!-- Sidebar -->
+						<div class="col-xl-3 theiaStickySidebar" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 0px; /*background-color: #fff;*/">
+							<div>
+								<div class="settings-nav">
+
+									<section class="course-content-2 cart-widget" style="clear:both;">
+									</section>
+
+									<ul>
+										<li class="nav-item">
+											<a href="student-dashboard.html" class="nav-link">
+												<i class="feather-home"></i> Lessons
+											</a>
+										</li>
+                                        <li class="nav-item active">
+											<b href="dictionary.html" class="nav-link">
+												<i class="feather-book-open"></i> Dictionary
+											</b>
+										</li>
+										<li class="nav-item">
+											<a href="student-quizzes.html" class="nav-link">
+												<i class="feather-book"></i> Quizzes
+											</a>
+										</li>
+                                        <li class="nav-item">
+											<a href="chat.html" class="nav-link">
+												<i class="feather-users"></i> Chats
+											</a>
+										</li>
+										
+										<li class="nav-item">
+											<a href="student-grades.html" class="nav-link">
+												<i class="feather-pie-chart"></i>Grades
+											</a>
+										</li>
+										<!--
+										<li class="nav-item">
+											<a href="instructor-orders.html" class="nav-link">
+												<i class="feather-shopping-bag"></i> Orders
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-student-grid.html" class="nav-link">
+												<i class="feather-users"></i> Students
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-payouts.html" class="nav-link">
+												<i class="feather-dollar-sign"></i> Payouts
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-tickets.html" class="nav-link">
+												<i class="feather-server"></i> Support Tickets
+											</a>
+										</li>
+									</ul>
+								-->
+									<ul>
+										<li class="nav-item">
+											<a href="" class="nav-link ">
+												<i class="feather-settings"></i> Settings
+											</a>
+										</li>
+									<!--
+										<li class="nav-item">
+											<a href="instructor-security.html" class="nav-link">
+												<i class="feather-user"></i> Security
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-social-profiles.html" class="nav-link">
+												<i class="feather-refresh-cw"></i> Social Profiles
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-notification.html" class="nav-link">
+												<i class="feather-bell"></i> Notifications
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-profile-privacy.html" class="nav-link">
+												<i class="feather-lock"></i> Profile Privacy
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-delete-profile.html" class="nav-link">
+												<i class="feather-trash-2"></i> Delete Profile
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-linked-account.html" class="nav-link">
+												<i class="feather-user"></i> Linked Accounts
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="index.html" class="nav-link">
+												<i class="feather-power"></i> Sign Out
+											</a>
+										</li>
+									</ul>
+								-->
+								</div>
+							</div>					
+						</div>
+					
+						<!-- /Sidebar -->
+					
+						<div class="col-lg-3 col-md-6  col-sm-10 ">
+							<div class=" comman-space">
+								<div class="filter-grp ticket-grp d-flex align-items-center justify-content-between">
+								<h2 style="font-weight: 700; margin-top: 80px; margin-right: -100px; font-size: 40px;">Dictionary</h2>
+                                <div class="card-2 search-widget blog-search blog-widget">
+                                    <div class="card-body">
+                                        <form class="search-form">
+                                            <div class="input-group">
+                                                <input type="text" placeholder="Search..." class="form-control">
+                                                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+								<div class="col-md-auto col-item">
+									<div class="instruct-search-blk">
+										<div class="show-filter choose-search-blk">
+											<form action="#">
+												<div class="row">
+													
+													<!--
+													<div class="col-md-6 col-lg-6 col-item">
+														<div class="form-group select-form mb-0">
+															<select class="form-select select"  name="sellist1">
+															  <option>Choose</option>
+															  <option>Angular</option>
+															  <option>React</option>
+															  <option>Node</option>
+															</select>
+														</div>
+													</div>
+													-->					
+												</div>
+											</form>
+										</div>
+								</div>
+								
+							</div>
+							</div>
+
+                            
+							<div class="settings-widget profile-details" style="position: absolute;">
+								<div class="settings-menu p-0">
+
+                                    <div class="settings-widget profile-details">
+                                        <div class="settings-menu-4 p-0">
+                                            <div class="row" style="padding-bottom: 30px;">
+                                                
+                                                    <div class="profile-heading" style="display: inline-block;">
+        
+                                                            <h3 style="-webkit-text-fill-color: #B3B3B3; font-weight: 700;">WORD OF THE DAY</h3>
+                                                            <h6 style="-webkit-text-fill-color: #3C1053; font-weight: 600; font-size: 50px; margin-top: 50px;">Relationship</h6>
+                                                            <h3 style="-webkit-text-fill-color: #B3B3B3; font-weight: 500; font-size: 30px; margin-bottom: 100px;">[re-la-shan-ship]</h3>
+                                                              
+                
+                                                    </div>
+        
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+
+								</div>
+							</div>
+
+                            <div class="settings-widget profile-details" style="margin-top: 50px;  z-index: 9;">
+								<div class="settings-menu p-0">
+
+                                    <div class="settings-widget profile-details">
+                                        <div class="settings-menu-3 p-0">
+                                            <div class="row" style="padding-bottom: 30px;">
+                                                
+                                                    <div class="profile-heading" style="display: inline-block;">
+        
+                                                            <h3 style="-webkit-text-fill-color: #B3B3B3; font-weight: 700;">WORD OF THE DAY</h3>
+                                                            <h6 style="-webkit-text-fill-color: #3C1053; font-weight: 600; font-size: 50px; margin-top: 50px;">Relationship</h6>
+                                                            <h3 style="-webkit-text-fill-color: #B3B3B3; font-weight: 500; font-size: 30px; margin-bottom: 100px;">[re-la-shan-ship]</h3>
+                                                              
+                
+                                                    </div>
+        
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+
+                                    
+
+								</div>
+							</div>
+
+                            
+                            
+                        
+						
+
+									  
+						
+							
+								</div>					
+							</div>
+
+							<div class=".col-xl-3 col-md-3 theiaStickySidebar" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 0px;">
+								<div class="settings-widget account-settings" style="padding-top: 0px; padding-bottom: 0px; position: static; transform: none; ">
+									<div class="settings-menu-2">
+
+									<section class="course-content cart-widget">
+										<div class="container">
+											<div class="student-widget">
+												<div class="student-widget-group">
+													<div class="row">
+														<h3 style="font-weight: 600; padding-left: 50px; padding-top: 20px; -webkit-text-fill-color: #3C1053; font-size: 40px;">Learn With Friends</h3>
+														<h3 style="font-weight: 600; padding-left: 50px; padding-top: 20px; -webkit-text-fill-color: #C5B8CC; font-size: 15px; margin-top: -25px;">START NEW RACE</h3>
+														<div class="dictionary-img" style="margin-left: 260px;">
+															<img src="assets/img/plus.png" alt="">
+														</div>
+														<div class="dictionary-img" style="margin-left: 350px;">
+															<img src="assets/img/student_7.jpg" alt="">
+														</div>
+														<div class="dictionary-img" style="margin-left: 390px;">
+															<img src="assets/img/student_8.jpg" alt="">
+														</div>
+														<div class="dictionary-img" style="margin-left: 430px;">
+															<img src="assets/img/student_9.jpg" alt="">
+														</div>
+														<div class="dictionary-img" style="margin-left: 470px;">
+															<img src="assets/img/student_10.jpg" alt="">
+														</div>
+
+
+											</div>
+											<h3 style="font-weight: 600; padding-left: 50px; padding-top: 120px; -webkit-text-fill-color: #3C1053; font-size: 40px;">My Friends</h3>
+											<a class="filter-img" style="margin-left: 440px;" >
+												<img src="assets/img/filter.png" alt="">
+												<h3 style="font-weight: 600; padding-left: 460px; padding-top: 0px; -webkit-text-fill-color: #3D9AFF; font-size: 15px; margin-top: -60px;">Filter</h3>
+											</a>
+
+											<div class="card-2 search-widget blog-search blog-widget" style="margin-top: 20px; margin-left: 50px;">
+												<div class="card-body">
+													<form class="search-form">
+														<div class="input-group">
+															<input type="text" placeholder="Search..." class="form-control">
+															<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+														</div>
+													</form>
+												</div>
+											</div>
+
+											<div class="row">
+
+				
+			
+												<div class="favourite-box-3" style="margin-left: 50px;">					
+													<div class="favourite-item flex-fill">
+					
+														<a href="" class="user-img-3" style="margin-left: -10px; margin-top: -50px; margin-bottom: -150px;">
+															<img src="assets/img/student_11.jpg" alt="">
+														</a>
+														
+														<div class="categories-content course-info">
+															<h2 style="font-size: 20px; font-weight: 600; margin-top: -50px; margin-left: 60px;">Zomba</h2>
+														</div>
+														
+														<div class="categories-content course-info">
+															<h2 style="font-size: 15px; font-weight: 600; margin-top: -40px; margin-left: 60px; margin-bottom: -70px ; -webkit-text-fill-color: #9EA5AE;">5 Words</h2>
+														</div>
+
+														<div class="categories-content course-info">
+															<a class="filter-img-2" style="margin-left: 50px; " >
+																<img src="assets/img/dot-inside-a-circle.png" alt="">
+															</a>
+															<h2 style="font-size: 15px; font-weight: 600; margin-top: -30px; margin-left: 80px; margin-bottom: -70px ; -webkit-text-fill-color: #8A8A8A;">50 Points</h2>
+														</div>
+	
+													</div>
+												</div>
+	
+												<div class="favourite-box-3" style="margin-left: 290px;">					
+													<div class="favourite-item flex-fill">
+					
+														<a href="" class="user-img-3" style="margin-left: -10px; margin-top: -50px; margin-bottom: -150px;">
+															<img src="assets/img/student_12.jpeg" alt="">
+														</a>
+														
+														<div class="categories-content course-info">
+															<h2 style="font-size: 20px; font-weight: 600; margin-top: -50px; margin-left: 60px;">Anna</h2>
+														</div>
+														
+														<div class="categories-content course-info">
+															<h2 style="font-size: 15px; font-weight: 600; margin-top: -40px; margin-left: 60px; margin-bottom: -70px ; -webkit-text-fill-color: #9EA5AE;">5 Words</h2>
+														</div>
+
+														<div class="categories-content course-info">
+															<a class="filter-img-2" style="margin-left: 50px; " >
+																<img src="assets/img/dot-inside-a-circle.png" alt="">
+															</a>
+															<h2 style="font-size: 15px; font-weight: 600; margin-top: -30px; margin-left: 80px; margin-bottom: -70px ; -webkit-text-fill-color: #8A8A8A;">50 Points</h2>
+														</div>
+	
+													</div>
+												</div>
+	
+	
+											</div>
+
+
+											<div class="row" style="margin-top: 100px;">
+
+				
+			
+												<div class="favourite-box-3" style="margin-left: 50px;">					
+													<div class="favourite-item flex-fill">
+					
+														<a href="" class="user-img-3" style="margin-left: -10px; margin-top: -50px; margin-bottom: -150px;">
+															<img src="assets/img/student_13.jpg" alt="">
+														</a>
+														
+														<div class="categories-content course-info">
+															<h2 style="font-size: 20px; font-weight: 600; margin-top: -50px; margin-left: 60px;">Rsali</h2>
+														</div>
+														
+														<div class="categories-content course-info">
+															<h2 style="font-size: 15px; font-weight: 600; margin-top: -40px; margin-left: 60px; margin-bottom: -70px ; -webkit-text-fill-color: #9EA5AE;">5 Words</h2>
+														</div>
+
+														<div class="categories-content course-info">
+															<a class="filter-img-2" style="margin-left: 50px; " >
+																<img src="assets/img/dot-inside-a-circle.png" alt="">
+															</a>
+															<h2 style="font-size: 15px; font-weight: 600; margin-top: -30px; margin-left: 80px; margin-bottom: -70px ; -webkit-text-fill-color: #8A8A8A;">50 Points</h2>
+														</div>
+	
+													</div>
+												</div>
+	
+												<div class="favourite-box-3" style="margin-left: 290px;">					
+													<div class="favourite-item flex-fill">
+					
+														<a href="" class="user-img-3" style="margin-left: -10px; margin-top: -50px; margin-bottom: -150px;">
+															<img src="assets/img/student_14.jpeg" alt="">
+														</a>
+														
+														<div class="categories-content course-info">
+															<h2 style="font-size: 20px; font-weight: 600; margin-top: -50px; margin-left: 60px;">Lilaa</h2>
+														</div>
+														
+														<div class="categories-content course-info">
+															<h2 style="font-size: 15px; font-weight: 600; margin-top: -40px; margin-left: 60px; margin-bottom: -70px ; -webkit-text-fill-color: #9EA5AE;">5 Words</h2>
+														</div>
+
+														<div class="categories-content course-info">
+															<a class="filter-img-2" style="margin-left: 50px; " >
+																<img src="assets/img/dot-inside-a-circle.png" alt="">
+															</a>
+															<h2 style="font-size: 15px; font-weight: 600; margin-top: -30px; margin-left: 80px; margin-bottom: -70px ; -webkit-text-fill-color: #8A8A8A;">50 Points</h2>
+														</div>
+	
+													</div>
+												</div>
+	
+	
+											</div>
+											
+											
+										</div>
+									</section>
+
+									
+								</div>
+								
+							</div>
+							
+
+							
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+						
+
+
+		
+	   	<!-- /Main Wrapper -->   
+	  
+		<!-- jQuery -->
+		<script src="assets/js/jquery-3.6.0.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		
+		<!-- counterup JS -->
+		<script src="assets/js/jquery.waypoints.js"></script>
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		
+		<!-- Select2 JS -->
+		<script src="assets/plugins/select2/js/select2.min.js"></script>
+
+		<!-- Owl Carousel -->
+		<script src="assets/js/owl.carousel.min.js"></script>	
+
+		<!-- Slick Slider -->
+		<script src="assets/plugins/slick/slick.js"></script>
+		
+		<!-- Aos -->
+		<script src="assets/plugins/aos/aos.js"></script>
+
+		<!-- Custom JS -->
+		<script src="assets/js/script.js"></script>
+		
+	</body>
+</html>

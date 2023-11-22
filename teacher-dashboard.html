@@ -1,0 +1,634 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<title>Erudyte</title>
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/My project-8.png">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/teacherdashv1.min.css">
+		
+		<!-- Fontawesome CSS -->
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+		
+		<!-- Feather CSS -->
+		<link rel="stylesheet" href="assets/css/feather.css">
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/teacherdashv1.css">
+	
+	</head>
+	<body>
+
+		<!-- Main Wrapper -->
+		<div class="main-wrapper home-slide">
+		
+			<!-- Header -->
+			<header class="header header-page">
+				<div class="header-fixed">
+					<nav class="navbar navbar-expand-lg header-nav scroll-sticky">
+						<div class="container ">
+							<div class="navbar-header">
+								<a id="mobile_btn" href="javascript:void(0);">
+									<span class="bar-icon">
+										<span></span>
+										<span></span>
+										<span></span>
+									</span>
+								</a>
+								<a href="teacher-dashboard.html" class="navbar-brand logo">
+									<img src="assets/img/erudyte logo-01.png" class="img-fluid" alt="Logo">
+								</a>
+							</div>
+	
+							<ul class="nav header-navbar-rht">
+								
+				
+								
+								<li class="nav-item user-nav">
+									<a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+										<span class="user-img">
+											<img src="assets/img/Christi-Bergin-2021-web-300x300.jpg" alt="">
+											<span class="status online"></span>
+										</span>
+									</a>
+									<div class="users dropdown-menu dropdown-menu-right" data-popper-placement="bottom-end" >
+										<div class="user-header">
+											<div class="avatar avatar-sm">
+												<img src="assets/img/Christi-Bergin-2021-web-300x300.jpg" alt="User Image" class="avatar-img rounded-circle">
+											</div>
+											<div class="user-text">
+												<h6>Martha Mathers</h6>
+												<p class="text-muted mb-0">Teacher</p>
+											</div>
+										</div>
+										
+										<a class="dropdown-item" href="index.html"><i class="feather-log-out me-1"></i> Logout</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
+			<!-- /Header -->
+			
+			<!-- Page Wrapper -->
+			<div class="page-content instructor-page-content">
+				<div class="container">
+					<div class="row">
+						
+						<!-- Sidebar -->
+						<div class="col-xl-3 theiaStickySidebar" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 0px; /*background-color: #fff;*/">
+							<div>
+								<div class="settings-nav">
+
+									<section class="course-content-2 cart-widget" style="clear:both;">
+									</section>
+
+									<ul>
+										<li class="nav-item active">
+											<b href="teacher-dashboard.html" class="nav-link">
+												<i class="feather-home"></i> Dashboard
+											</b>
+										</li>
+										<li class="nav-item">
+											<a href="teacher-portal-v4.html" class="nav-link">
+												<i class="feather-users"></i> Assign
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="teacher-dictionary.html" class="nav-link">
+												<i class="feather-book"></i> Dictionary
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="teacher-reports.html" class="nav-link">
+												<i class="feather-pie-chart"></i> Reports
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="teacher-chat.html" class="nav-link">
+												<i class="feather-star"></i> Chat
+											</a>
+										</li>
+										<!--
+										<li class="nav-item">
+											<a href="instructor-orders.html" class="nav-link">
+												<i class="feather-shopping-bag"></i> Orders
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-student-grid.html" class="nav-link">
+												<i class="feather-users"></i> Students
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-payouts.html" class="nav-link">
+												<i class="feather-dollar-sign"></i> Payouts
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-tickets.html" class="nav-link">
+												<i class="feather-server"></i> Support Tickets
+											</a>
+										</li>
+									</ul>
+								-->
+									<ul>
+										<li class="nav-item">
+											<a href="" class="nav-link ">
+												<i class="feather-settings"></i> Edit Profile
+											</a>
+										</li>
+									<!--
+										<li class="nav-item">
+											<a href="instructor-security.html" class="nav-link">
+												<i class="feather-user"></i> Security
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-social-profiles.html" class="nav-link">
+												<i class="feather-refresh-cw"></i> Social Profiles
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-notification.html" class="nav-link">
+												<i class="feather-bell"></i> Notifications
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-profile-privacy.html" class="nav-link">
+												<i class="feather-lock"></i> Profile Privacy
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-delete-profile.html" class="nav-link">
+												<i class="feather-trash-2"></i> Delete Profile
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-linked-account.html" class="nav-link">
+												<i class="feather-user"></i> Linked Accounts
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="index.html" class="nav-link">
+												<i class="feather-power"></i> Sign Out
+											</a>
+										</li>
+									</ul>
+								-->
+								</div>
+							</div>					
+						</div>
+					
+						<!-- /Sidebar -->
+						
+					
+						<div class="col-lg-3 col-md-6  col-sm-10 ">
+
+							<div class=" comman-space">
+
+								<div class="filter-grp ticket-grp d-flex align-items-center justify-content-between">
+								<h2 style="font-weight: 700;">Students Performance</h2>
+								<div class="card-2 search-widget blog-search blog-widget" style="margin-left: -60px; margin-top: 10px;">
+                                    <div class="card-body">
+                                        <form class="search-form">
+                                            <div class="input-group">
+                                                <input type="text" placeholder="Search Anything..." class="form-control" >
+                                                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+								
+
+								<div class="col-md-auto col-item">
+									
+									<div class="instruct-search-blk">
+										
+										<div class="show-filter choose-search-blk">
+											
+											<form action="#">
+												<div class="row">
+													
+													<!--
+													<div class="col-md-6 col-lg-6 col-item">
+														<div class="form-group select-form mb-0">
+															<select class="form-select select"  name="sellist1">
+															  <option>Choose</option>
+															  <option>Angular</option>
+															  <option>React</option>
+															  <option>Node</option>
+															</select>
+														</div>
+													</div>
+													-->					
+												</div>
+											</form>
+
+
+										</div>
+								</div>
+								
+							</div>
+							</div>
+
+							
+						<div style="display: inline-block; width: 200%; margin-left: -20px;">
+							<div class="favourite-box" data-aos="fade-down" style="display: inline-block; background-color: #3C1053;">					
+                                <div class="favourite-item flex-fill" style="margin-left: 0px;">
+
+                                    
+                               <div>
+                                    <div class="categories-content course-info">
+                                        <div>
+                                            <span class="user-img">
+                                                <img src="assets/img/user_group_w.png" style="margin-top: 10px;" alt="">
+                                            </span>
+                                        </div>
+                                        <h5 style="margin-left:22px; -webkit-text-fill-color: #ffffff;">Enrolled Students</h5>
+                                        
+                                    </div>
+
+                                    <div class="categories-content course-info-2">
+										<span><img src="assets/img/arrow_w.png" style="height: 20px; margin-top: -10px;"></span>
+                                        <h6 style="-webkit-text-fill-color: #fff;">30</h6>
+                                    </div>
+								
+								</div>
+                                    
+                                </div>
+                            </div>
+
+							<div class="favourite-box" data-aos="fade-down" style="display: inline-block;">					
+                                <div class="favourite-item flex-fill">
+
+                                    
+                               <div>
+                                    <div class="categories-content course-info">
+                                        <div>
+                                            <span class="user-img">
+                                                <img src="assets/img/star_2.png" style="margin-top: 10px;" alt="">
+                                            </span>
+                                        </div>
+                                        <h5 style="margin-left:22px;">Average Grade (Total)</h5>
+                                        
+                                    </div>
+
+                                    <div class="categories-content course-info-2">
+										<span><img src="assets/img/arrow_g.png" style="height: 20px; margin-top: -10px;"></span>
+                                        <h6 style="-webkit-text-fill-color: #2BB596;">68%</h6>
+										<h6 style="-webkit-text-fill-color: #2BB596;">(+12%)</h6>
+                                    </div>
+								
+								</div>
+                                    
+                                </div>
+                            </div>
+							
+							<div class="favourite-box" data-aos="fade-down" style="display: inline-block;">					
+                                <div class="favourite-item flex-fill">
+
+                                    
+                               <div>
+                                    <div class="categories-content course-info">
+                                        <div>
+                                            <span class="user-img">
+                                                <img src="assets/img/document.png" style="margin-top: 10px;" alt="">
+                                            </span>
+                                        </div>
+                                        <h5 style="margin-left:22px;">Struggling Students</h5>
+                                        
+                                    </div>
+
+                                    <div class="categories-content course-info-2">
+										<span><img src="assets/img/arrow_r.png" style="height: 20px; margin-top: -10px;"></span>
+                                        <h6 style="-webkit-text-fill-color: #E3507A;">12</h6>
+										<h6 style="-webkit-text-fill-color: #E3507A;">(+12%)</h6>
+                                    </div>
+								
+								</div>
+                                    
+                                </div>
+                            </div>
+
+							<div class="favourite-box" data-aos="fade-down" style="display: inline-block;">					
+                                <div class="favourite-item flex-fill">
+
+                                    
+                               <div>
+                                    <div class="categories-content course-info">
+                                        <div>
+                                            <span class="user-img">
+                                                <img src="assets/img/star_2.png" style="margin-top: 10px;" alt="">
+                                            </span>
+                                        </div>
+                                        <h5 style="margin-left:22px;">Average Score: Quiz 2</h5>
+                                        
+                                    </div>
+
+                                    <div class="categories-content course-info-2">
+										<span><img src="assets/img/arrow_g.png" style="height: 20px; margin-top: -10px;"></span>
+                                        <h6 style="-webkit-text-fill-color: #2BB596;">63%</h6>
+                                    </div>
+								
+								</div>
+                                    
+                                </div>
+                            </div>
+						</div>
+
+						<div class="row">
+
+							
+
+							<div class="settings-widget">
+								<div class="settings-inner-blk p-0">
+									
+									
+									<div class="comman-space pb-0">
+										<div class="settings-referral-blk course-instruct-blk  table-responsive">
+
+
+											<!-- Instructor Users-->
+											<table class="table table-nowrap mb-0">
+
+												<div class="settings-widget">
+													<div class="settings-inner-blk-2 p-0">
+														<div class="comman-space pb-0">
+															<div class="filter-grp ticket-grp d-flex justify-content-between">
+																<div style="padding-bottom: 0px;">
+																	<h3>Students Overview
+																		<span class="badge info-low-blue" style="-webkit-text-fill-color: #5FA3F8; font-size: 14px;"><span></span>30 users</span>
+																	</h3>
+																	<p>You can find all of your order Invoices.</p>
+																</div>
+																<div class="ticket-btn-grp-2" style="padding-top: 10px;">
+																	<a href="">Manage</a>
+																</div>
+																<div class="ticket-btn-grp-3" style="padding-top: 10px;">
+																	<a href="">Add New</a>
+																</div>
+																<div>
+																	<a href="" class="settingcog" ><img src="assets/img/settingscog.png" style="width:30px; margin-top: 10px;"></a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<thead>
+													<tr>
+														<th>
+															<div class="form-check instruct-check-list">
+															  <input class="form-check-input" type="checkbox"  name="option1"  >
+															</div>
+														</th>
+														<th>Student Name</th>
+														<th>Grade</th>
+														<th>Module</th>
+														<th>Actions</th>
+														
+														<th>&nbsp;</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>
+															<div class="form-check instruct-check-list">
+															  <input class="form-check-input" type="checkbox"  name="option1"  >
+															</div>
+														</td>
+													<td>
+														
+														<div>
+															<span class="user-img">
+																<img src="assets/img/student_4.jpg" alt="">
+															</span>
+														<a>Yolanda Cruz</a> 
+														
+														<span style="margin-left: 10px; ">@Yolanda</span> 
+														</div>
+													</td>
+														</span>
+														<td><span class="badge info-low-green" style="-webkit-text-fill-color: #00E886;"><span class="greendot"></span>75%</span></td>
+														<td>45/50(85%)</td>
+														<td>Excellent</td>
+														
+														
+														<td><a href="javascript:;"><i class="feather-more-vertical"></i></a></td>
+													</tr>
+
+													<tr>
+														<td>
+															<div class="form-check instruct-check-list">
+															  <input class="form-check-input" type="checkbox"  name="option1"  >
+															</div>
+														</td>
+														<td>
+														
+															<div>
+																<span class="user-img">
+																	<img src="assets/img/student_7.jpg" alt="">
+																</span>
+															<a>Carl Butcher</a> 
+															
+															<span style="margin-left: 10px; ">@Carl</span> 
+															</div>
+														</td>
+														<td><span class="badge info-low-blue" style="-webkit-text-fill-color: #5FA3F8;"><span class="bluedot"></span>50%</span></td>
+														<td>30/50(60%)</td>
+														<td>Needs Work</td>
+														
+														
+														<td><a href="javascript:;"><i class="feather-more-vertical"></i></a></td>
+													</tr>
+													<tr>
+														<td>
+															<div class="form-check instruct-check-list">
+															  <input class="form-check-input" type="checkbox"  name="option1"  >
+															</div>
+														</td>
+														<td>
+														
+															<div>
+																<span class="user-img">
+																	<img src="assets/img/student_8.jpg" alt="">
+																</span>
+															<a>Jenis Bates</a> 
+															
+															<span style="margin-left: 10px; ">@Jenis</span> 
+															</div>
+														</td>
+														<td><span class="badge info-low-orange" style="-webkit-text-fill-color: #F7B548;"><span class="orangedot"></span>30%</span></td>
+														<td>45/50(90%)</td>
+														<td>Needs Work</td>
+														
+														
+														<td><a href="javascript:;"><i class="feather-more-vertical"></i></a></td>
+													</tr>
+
+													<tr>
+														<td>
+															<div class="form-check instruct-check-list">
+															  <input class="form-check-input" type="checkbox"  name="option1"  >
+															</div>
+														</td>
+														<td>
+														
+															<div>
+																<span class="user-img">
+																	<img src="assets/img/student_9.jpg" alt="">
+																</span>
+															<a>Jesse Stevens</a> 
+															
+															<span style="margin-left: 10px; ">@Jesse</span> 
+															</div>
+														</td>
+														<td><span class="badge info-low-orange" style="-webkit-text-fill-color: #F7B548;"><span class="orangedot"></span>30%</span></td>
+														<td>45/50(90%)</td>
+														<td>Needs Work</td>
+														
+														
+														<td><a href="javascript:;"><i class="feather-more-vertical"></i></a></td>
+													</tr>
+													<tr>
+														<td>
+															<div class="form-check instruct-check-list">
+															  <input class="form-check-input" type="checkbox"  name="option1"  >
+															</div>
+														</td>
+														<td>
+														
+															<div>
+																<span class="user-img">
+																	<img src="assets/img/student_11.jpg" alt="">
+																</span>
+															<a>Michael Hawkins</a> 
+															
+															<span style="margin-left: 10px; margin-right: -70px;">@Michael</span> 
+															</div>
+														</td>
+														<td><span class="badge info-low-blue" style="-webkit-text-fill-color: #5FA3F8;"><span class="bluedot"></span>50%</span></td>
+														<td>30/50(60%)</td>
+														<td>Needs Work</td>
+														
+														
+														<td><a href="javascript:;"><i class="feather-more-vertical"></i></a></td>
+													</tr>
+													<tr>
+														<td>
+															<div class="form-check instruct-check-list">
+															  <input class="form-check-input" type="checkbox"  name="option1"  >
+															</div>
+														</td>
+													<td>
+														
+														<div>
+															<span class="user-img">
+																<img src="assets/img/student_10.jpg" alt="">
+															</span>
+														<a>John Smith</a> 
+														
+														<span style="margin-left: 10px; ">@John</span> 
+														</div>
+													</td>
+														</span>
+														<td><span class="badge info-low-green" style="-webkit-text-fill-color: #00E886;"><span class="greendot"></span>75%</span></td>
+														<td>45/50(90%)</td>
+														<td>Excellent</td>
+														
+														
+														<td><a href="javascript:;"><i class="feather-more-vertical"></i></a></td>
+													</tr>
+													
+												</tbody>
+											  </table>
+											<!-- /Instructor List-->	
+					</div>
+				</div>
+			</div>
+		</div>
+
+				
+						</div>
+
+									  
+						
+							
+								</div>					
+							</div>
+
+							<div class=".col-xl-3 col-md-3 theiaStickySidebar" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 0px;">
+								<div class="settings-widget account-settings" style="padding-top: 0px; padding-bottom: 0px; position: static; transform: none; ">
+									<div class="settings-menu-2">
+
+									<section class="course-content cart-widget">
+										<div class="container">
+											<div class="student-widget">
+												<div class="student-widget-group">
+													<div class="row">
+														<div style="justify-content: center; align-items: center; display: flex; padding-top: 20px;">
+															<img src="assets/img/graph.png" alt="" style="height: 300px; margin-left: -50px;">
+														</div>
+														
+											</div>
+										</div>
+									</section>
+
+									<section class="course-content cart-widget">
+										<div class="container">
+											<div class="student-widget">
+												<div class="student-widget-group">
+													<div class="row">
+														<div style="justify-content: center; align-items: center; display: flex; padding-top: 20px;">
+															<img src="assets/img/translator_2.png" alt="" style="height: 200px; margin-left: -50px;">
+														</div>
+														
+											</div>
+										</div>
+									</section>
+
+									
+								</div>
+								
+							</div>
+							
+									</div>
+								</div>
+							</div>
+						</div>
+						
+
+
+		
+	   	<!-- /Main Wrapper -->   
+	  
+		<!-- jQuery -->
+		<script src="assets/js/jquery-3.6.0.min.js"></script>
+
+		<!-- Bootstrap Core JS -->
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Feature JS -->
+		<script src="assets/plugins/feather/feather.min.js"></script>
+
+		<!-- Sticky Sidebar JS -->
+        <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+        <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+        <!-- Chart JS -->
+		<script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+		<script src="assets/plugins/apexchart/chart-data.js"></script>
+
+		<!-- Custom JS -->
+		<script src="assets/js/teacher.js"></script>
+		
+	</body>
+</html>

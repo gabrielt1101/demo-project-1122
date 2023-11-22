@@ -1,0 +1,474 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<title>Erudyte</title>
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/My project-8.png">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/teacher-reports.min.css">
+		
+		<!-- Fontawesome CSS -->
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+		
+		<!-- Feather CSS -->
+		<link rel="stylesheet" href="assets/css/feather.css">
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/teacher-reports.css">
+	
+	</head>
+	<body>
+
+		<!-- Main Wrapper -->
+		<div class="main-wrapper home-slide">
+		
+			<!-- Header -->
+			<header class="header header-page">
+				<div class="header-fixed">
+					<nav class="navbar navbar-expand-lg header-nav scroll-sticky">
+						<div class="container ">
+							<div class="navbar-header">
+								<a id="mobile_btn" href="javascript:void(0);">
+									<span class="bar-icon">
+										<span></span>
+										<span></span>
+										<span></span>
+									</span>
+								</a>
+								<a href="teacher-dashboard.html" class="navbar-brand logo">
+									<img src="assets/img/erudyte logo-01.png" class="img-fluid" alt="Logo">
+								</a>
+							</div>
+	
+							<ul class="nav header-navbar-rht">
+								
+				
+								
+								<li class="nav-item user-nav">
+									<a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+										<span class="user-img">
+											<img src="assets/img/Christi-Bergin-2021-web-300x300.jpg" alt="">
+											<span class="status online"></span>
+										</span>
+									</a>
+									<div class="users dropdown-menu dropdown-menu-right" data-popper-placement="bottom-end" >
+										<div class="user-header">
+											<div class="avatar avatar-sm">
+												<img src="assets/img/Christi-Bergin-2021-web-300x300.jpg" alt="User Image" class="avatar-img rounded-circle">
+											</div>
+											<div class="user-text">
+												<h6>Martha Mathers</h6>
+												<p class="text-muted mb-0">Teacher</p>
+											</div>
+										</div>
+										
+										<a class="dropdown-item" href="index.html"><i class="feather-log-out me-1"></i> Logout</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
+			<!-- /Header -->
+			
+			<!-- Page Wrapper -->
+			<div class="page-content instructor-page-content">
+				<div class="container">
+					<div class="row">
+						
+						<!-- Sidebar -->
+						<div class="col-xl-3 theiaStickySidebar" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 0px; /*background-color: #fff;*/">
+							<div>
+								<div class="settings-nav">
+
+									<section class="course-content-2 cart-widget" style="clear:both;">
+									</section>
+
+									<ul>
+										<li class="nav-item">
+											<a href="teacher-dashboard.html" class="nav-link">
+												<i class="feather-home"></i> Dashboard
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="teacher-portal-v4.html" class="nav-link">
+												<i class="feather-users"></i> Assign
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="teacher-dictionary.html" class="nav-link">
+												<i class="feather-book"></i> Dictionary
+											</a>
+										</li>
+										<li class="nav-item active">
+											<b href="teacher-reports.html" class="nav-link">
+												<i class="feather-pie-chart"></i> Reports
+											</b>
+										</li>
+										<li class="nav-item">
+											<a href="teacher-chat.html" class="nav-link">
+												<i class="feather-star"></i> Chat
+											</a>
+										</li>
+										<!--
+										<li class="nav-item">
+											<a href="instructor-orders.html" class="nav-link">
+												<i class="feather-shopping-bag"></i> Orders
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-student-grid.html" class="nav-link">
+												<i class="feather-users"></i> Students
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-payouts.html" class="nav-link">
+												<i class="feather-dollar-sign"></i> Payouts
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-tickets.html" class="nav-link">
+												<i class="feather-server"></i> Support Tickets
+											</a>
+										</li>
+									</ul>
+								-->
+									<ul>
+										<li class="nav-item">
+											<a href="" class="nav-link ">
+												<i class="feather-settings"></i> Edit Profile
+											</a>
+										</li>
+									<!--
+										<li class="nav-item">
+											<a href="instructor-security.html" class="nav-link">
+												<i class="feather-user"></i> Security
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-social-profiles.html" class="nav-link">
+												<i class="feather-refresh-cw"></i> Social Profiles
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-notification.html" class="nav-link">
+												<i class="feather-bell"></i> Notifications
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-profile-privacy.html" class="nav-link">
+												<i class="feather-lock"></i> Profile Privacy
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-delete-profile.html" class="nav-link">
+												<i class="feather-trash-2"></i> Delete Profile
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="instructor-linked-account.html" class="nav-link">
+												<i class="feather-user"></i> Linked Accounts
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="index.html" class="nav-link">
+												<i class="feather-power"></i> Sign Out
+											</a>
+										</li>
+									</ul>
+								-->
+								</div>
+							</div>					
+						</div>
+					
+						<!-- /Sidebar -->
+					
+						<div class="col-lg-3 col-md-6  col-sm-10 ">
+							<div class=" comman-space">
+								<div class="filter-grp ticket-grp d-flex align-items-center justify-content-between">
+								<h2 style="font-weight: 600;">Subject Grades</h2>
+								<div class="col-md-auto col-item">
+									<div class="instruct-search-blk">
+										<div class="show-filter choose-search-blk">
+											<form action="#">
+												<div class="row">
+													
+													<!--
+													<div class="col-md-6 col-lg-6 col-item">
+														<div class="form-group select-form mb-0">
+															<select class="form-select select"  name="sellist1">
+															  <option>Choose</option>
+															  <option>Angular</option>
+															  <option>React</option>
+															  <option>Node</option>
+															</select>
+														</div>
+													</div>
+													-->					
+												</div>
+											</form>
+										</div>
+								</div>
+								
+							</div>
+							</div>
+
+							<div class="settings-widget profile-details">
+								<div class="settings-menu-4 p-0">
+									<div class="row">
+									<div class="profile-heading">
+										<h3 style="-webkit-text-fill-color: #FFFFFF;">Welcome Back!</h3>
+										<h6 style="-webkit-text-fill-color: #FFFFFF;">Your students have completed 60% of your goals this</h6>
+										<h6 style="-webkit-text-fill-color: #FFFFFF;">week! Start a new goal and improve their results</h6>
+										
+
+									</div>
+									<div class="imageout">
+										<img src="assets/img/teacher2.png" style="width:400px;height:300px; margin-left: 450px;" alt="">
+									</div>
+									</div>
+								</div>
+							</div>
+
+						<div class="row">
+							<div class="favourite-box" data-aos="fade-down" style="display: inline-block;">	
+							<a href="teacher-reports-2.html">				
+                                <div class="favourite-item flex-fill">
+
+                                    
+                               
+								<div class="categories-content course-info">
+									
+										<span class="user-img">
+											<img src="assets/img/keysmath.png" alt="">
+										</span>
+									
+									<h5 style="margin-left:22px;">Fraction</h5>
+									
+								</div>
+
+                                    <div class="categories-content course-info-2">
+                                        <h6><i>10 Completed | 85% avg. score</i></h6>
+                                    </div>
+								
+								
+                                    
+                                </div>
+							</a>
+                            </div>
+
+                            <div class="favourite-box" data-aos="fade-down" style="display: inline-block;">	
+								<a href="teacher-reports-2.html">				
+									<div class="favourite-item flex-fill">
+	
+										
+								   
+									<div class="categories-content course-info">
+										
+											<span class="user-img">
+												<img src="assets/img/icons8-math-50.png" alt="">
+											</span>
+										
+										<h5 style="margin-left:22px;">Addition</h5>
+										
+									</div>
+	
+										<div class="categories-content course-info-2">
+											<h6><i>15 Completed | 85% avg. score</i></h6>
+										</div>
+									
+									
+										
+									</div>
+								</a>
+								</div>
+
+                            
+
+								<div class="favourite-box" data-aos="fade-down" style="display: inline-block;">	
+									<a href="teacher-reports-2.html">				
+										<div class="favourite-item flex-fill">
+		
+											
+									   
+										<div class="categories-content course-info">
+											
+												<span class="user-img">
+													<img src="assets/img/icons8-geometry-50.png" alt="">
+												</span>
+											
+											<h5 style="margin-left:22px;">Geometry</h5>
+											
+										</div>
+		
+											<div class="categories-content course-info-2">
+												<h6><i>9 Completed | 75% avg. score</i></h6>
+											</div>
+										
+										
+											
+										</div>
+									</a>
+									</div>
+
+									<div class="favourite-box" data-aos="fade-down" style="display: inline-block;">	
+										<a href="teacher-reports-2.html">				
+											<div class="favourite-item flex-fill">
+			
+												
+										   
+											<div class="categories-content course-info">
+												
+													<span class="user-img">
+														<img src="assets/img/icons8-tesseract-50.png" alt="">
+													</span>
+												
+												<h5 style="margin-left:22px;">Algebra</h5>
+												
+											</div>
+			
+												<div class="categories-content course-info-2">
+													<h6><i>8 Completed | 80% avg. score</i></h6>
+												</div>
+											
+											
+												
+											</div>
+										</a>
+										</div>
+
+										<div class="favourite-box" data-aos="fade-down" style="display: inline-block;">	
+											<a href="teacher-reports-2.html">				
+												<div class="favourite-item flex-fill">
+				
+													
+											   
+												<div class="categories-content course-info">
+													
+														<span class="user-img">
+															<img src="assets/img/icons8-divide-50.png" alt="">
+														</span>
+													
+													<h5 style="margin-left:22px;">Functions</h5>
+													
+												</div>
+				
+													<div class="categories-content course-info-2">
+														<h6><i>11 Completed | 73% avg. score</i></h6>
+													</div>
+												
+												
+													
+												</div>
+											</a>
+											</div>
+
+											<div class="favourite-box" data-aos="fade-down" style="display: inline-block;">	
+												<a href="teacher-reports-2.html">				
+													<div class="favourite-item flex-fill">
+					
+														
+												   
+													<div class="categories-content course-info">
+														
+															<span class="user-img">
+																<img src="assets/img/calc.png" alt="">
+															</span>
+														
+														<h5 style="margin-left:22px;">Precalculus</h5>
+														
+													</div>
+					
+														<div class="categories-content course-info-2">
+															<h6><i>14 Completed | 83% avg. score</i></h6>
+														</div>
+													
+													
+														
+													</div>
+												</a>
+												</div>
+
+				
+						</div>
+
+									  
+						
+							
+								</div>					
+							</div>
+
+							<div class=".col-xl-3 col-md-3 theiaStickySidebar" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 0px;">
+								<div class="settings-widget account-settings" style="padding-top: 0px; padding-bottom: 0px; position: static; transform: none; ">
+									<div class="settings-menu-2">
+
+									<section class="course-content cart-widget">
+										<div class="container">
+											<div class="student-widget">
+												<div class="student-widget-group">
+													<div class="row">
+														<div style="justify-content: center; align-items: center; display: flex; padding-top: 20px;">
+															<img src="assets/img/graph.png" alt="" style="height: 350px;">
+														</div>
+														
+											</div>
+										</div>
+									</section>
+
+									<section class="course-content cart-widget">
+										<div class="container">
+											<div class="student-widget">
+												<div class="student-widget-group">
+													<div class="row">
+														<div style="justify-content: center; align-items: center; display: flex; padding-top: 20px;">
+															<img src="assets/img/translator_2.png" alt="" style="height: 250px;">
+														</div>
+														
+											</div>
+										</div>
+									</section>
+
+									
+								</div>
+								
+							</div>
+							
+									</div>
+								</div>
+							</div>
+						</div>
+						
+
+
+		
+	   	<!-- /Main Wrapper -->   
+	  
+		<!-- jQuery -->
+		<script src="assets/js/jquery-3.6.0.min.js"></script>
+
+		<!-- Bootstrap Core JS -->
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Feature JS -->
+		<script src="assets/plugins/feather/feather.min.js"></script>
+
+		<!-- Sticky Sidebar JS -->
+        <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+        <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+        <!-- Chart JS -->
+		<script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+		<script src="assets/plugins/apexchart/chart-data.js"></script>
+
+		<!-- Custom JS -->
+		<script src="assets/js/teacher.js"></script>
+		
+	</body>
+</html>
