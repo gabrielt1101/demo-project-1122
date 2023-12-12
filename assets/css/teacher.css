@@ -20091,6 +20091,520 @@ input[type=password]::-ms-clear
     }
 }
 
+.maintitle{
+    font-weight: 600; 
+    margin-bottom: 40px; 
+    margin-top: 20px;
+}
+
+.title1{
+    margin-left: 500px; 
+    font-size: 32px; 
+    margin-top: -180px; 
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+.title2{
+    margin-left: 500px; 
+    font-size: 32px; 
+    margin-top: 50px; 
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+.title3{
+    margin-left: 500px; 
+    font-size: 32px; 
+    margin-top: 50px; 
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+.assigntext{
+
+}
+
+@media (max-width: 1799.98px) {
+    .assigntext{
+        margin-left: -15px;
+    }
+
+
+    .online-course {
+        border-radius: 15px;
+        padding: 25px;
+        display: center;
+        position: relative;
+        background: #392c7d;
+        margin: 10px;
+        width: 23rem;
+        -webkit-text-fill-color: #FFFFFF;
+    }
+
+
+    .profile-heading h4 {
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .maintitle{
+        font-weight: 600; 
+        margin-bottom: 40px; 
+        margin-top: 20px;
+    }
+    
+    .title1{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: -180px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+    
+    .title2{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: 50px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+    
+    .title3{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: 50px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+
+    .settings-widget {
+	
+        margin-bottom: 0px;
+        border-radius: 10px;
+    }
+    .settings-menu {
+        background: linear-gradient(to top, #6E6DFF, 20%, #8589FF);
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        /*height: 400px;*/
+    }
+    .settings-nav {
+        background: #fff;
+        border-radius: 0px;
+        padding: 0px;
+        padding-top: 8rem;
+        height: 1000px;
+        position: fixed;
+        padding-left: 100px;
+        margin-left: -100px;
+        padding-right: 125px;
+    }
+
+}
+
+.classrecords{
+
+}
+
+@media (max-width: 1599.98px) {
+
+    .imageout{
+        /*width: 70px;*/
+        display: inline-block;
+        height: 200px; 
+        position: relative; 
+        left: -10px;
+    }
+    .assigntext{
+        margin-left: -35px;
+    }
+
+    .classrecords{
+    margin-left: 20px;
+    margin-right: -20px;
+    }
+
+    .online-course {
+        border-radius: 15px;
+        padding: 25px;
+        display: center;
+        position: relative;
+        background: #392c7d;
+        margin: 10px;
+        width: 20rem;
+        -webkit-text-fill-color: #FFFFFF;
+        margin-left: 30px;
+    }
+
+
+    .profile-heading h4 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-left: 410px;
+    }
+
+    .maintitle{
+        font-weight: 600; 
+        margin-bottom: 40px; 
+        margin-top: 20px;
+    }
+    
+    .title1{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: -180px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+    
+    .title2{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: 50px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+    
+    .title3{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: 50px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+
+    .settings-widget {
+	
+        margin-bottom: 0px;
+        border-radius: 10px;
+    }
+    .settings-menu {
+        background: linear-gradient(to top, #6E6DFF, 20%, #8589FF);
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        /*height: 400px;*/
+    }
+
+    .settings-nav {
+        background: #fff;
+        border-radius: 0px;
+        padding: 0px;
+        padding-top: 8rem;
+        height: 1000px;
+        position: fixed;
+        padding-left: 100px;
+        margin-left: -100px;
+        padding-right: 125px;
+        width: 350px;
+        margin-top: -40px;
+    }
+
+    .settings-nav ul .active{
+        background: #41197b;
+        display: flex;
+        border-radius: 15px;
+        max-width: 200px;
+    }
+
+    
+
+}
+
+@media (max-width: 1499.98px) {
+
+    .imageout{
+        /*width: 70px;*/
+        display: inline-block;
+        height: 200px; 
+        position: relative; 
+        left: -10px;
+    }
+    .assigntext{
+        margin-left: -50px;
+    }
+
+    .classrecords{
+    margin-left: 20px;
+    margin-right: -20px;
+    }
+
+    .online-course {
+        border-radius: 15px;
+        padding: 25px;
+        display: center;
+        position: relative;
+        background: #392c7d;
+        margin: 10px;
+        width: 18rem;
+        -webkit-text-fill-color: #FFFFFF;
+        margin-left: 22px;
+    }
+
+
+    .profile-heading h4 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-left: 410px;
+    }
+
+    .maintitle{
+        font-weight: 600; 
+        margin-bottom: 40px; 
+        margin-top: 20px;
+    }
+    
+    .title1{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: -180px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+    
+    .title2{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: 50px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+    
+    .title3{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: 50px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+
+    .settings-widget {
+	
+        margin-bottom: 0px;
+        border-radius: 10px;
+    }
+    .settings-menu {
+        background: linear-gradient(to top, #6E6DFF, 20%, #8589FF);
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        /*height: 400px;*/
+    }
+
+    .settings-nav {
+        background: #fff;
+        border-radius: 0px;
+        padding: 0px;
+        padding-top: 8rem;
+        height: 1000px;
+        position: fixed;
+        padding-left: 100px;
+        margin-left: -100px;
+        padding-right: 125px;
+        width: 350px;
+        margin-top: -70px;
+    }
+
+    .settings-nav ul .active{
+        background: #41197b;
+        display: flex;
+        border-radius: 15px;
+        max-width: 200px;
+        margin-left: 25px;
+    }
+
+    .settings-nav ul li a {
+        color: #303030;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0;
+        border: 0 ;
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        line-height: normal;
+        padding: 20px;
+        margin-left: 25px;
+    }
+
+    
+
+}
+
+.imagesize{
+    width:500px;
+    height:auto;
+}
+
+@media (max-width: 1199.98px) {
+    .filter-grp {
+        margin-bottom: 23px;
+        margin-left: -100px;
+    }
+
+    .ticket-btn-grp-2 a {
+        background: #392C7D;
+        border: 1px solid #392C7D;
+        border-radius: 10px;
+        font-size: 14px;
+        color: #fff;
+        padding: 6px 18px;
+        margin-top: 10px;
+        margin-right: 160px;
+    }
+
+    .imagesize{
+        width:350px;
+        height:auto;
+    }
+
+    .comman-space {
+        padding: 25px;
+        margin-left: 120px;
+        margin-right: -170px;
+    }
+
+    .imageout{
+        /*width: 70px;*/
+        display: inline-block;
+        height: 100px; 
+        position: relative; 
+        left: -10px;
+    }
+
+    .settings-menu-3{
+        background: #392c7d;
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        height: 187.5px;
+    
+    }
+
+    .assigntext{
+        margin-left: -30px;
+        font-size: 15px;
+    }
+
+    .classrecords{
+    margin-left: 190px;
+    margin-right: -270px;
+    }
+
+    .online-course {
+        border-radius: 15px;
+        padding: 25px;
+        display: center;
+        position: relative;
+        background: #392c7d;
+        margin: 10px;
+        width: 18rem;
+        -webkit-text-fill-color: #FFFFFF;
+        margin-left: 190px;
+    }
+
+
+    .profile-heading h4 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 300px;
+    }
+
+    .maintitle{
+        font-weight: 600; 
+        margin-bottom: 40px; 
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    
+    .title1{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: -180px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+    
+    .title2{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: 50px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+    
+    .title3{
+        margin-left: 500px; 
+        font-size: 32px; 
+        margin-top: 50px; 
+        -webkit-text-fill-color: #FFFFFF;
+    }
+
+    .settings-widget {
+	
+        margin-bottom: 0px;
+        border-radius: 10px;
+    }
+    .settings-menu {
+        background: linear-gradient(to top, #6E6DFF, 20%, #8589FF);
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 0rem;
+        /*height: 400px;*/
+    }
+
+    .settings-nav {
+        background: #fff;
+        border-radius: 0px;
+        padding: 0px;
+        padding-top: 8rem;
+        height: 1000px;
+        position: fixed;
+        padding-left: 100px;
+        margin-left: -150px;
+        padding-right: 125px;
+        width: 270px;
+        margin-top: -120px;
+    }
+
+    .settings-nav ul .active{
+        background: #41197b;
+        display: flex;
+        border-radius: 15px;
+        max-width: 150px;
+        margin-left:0px;
+    }
+
+    .settings-nav ul li a {
+        color: #303030;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0;
+        border: 0 ;
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        line-height: normal;
+        padding: 20px;
+        margin-left:0px;
+    }
+
+    .settings-nav ul li:before {
+        opacity: 0;
+        content: "";
+        position: absolute;
+        background: #41197b;
+        width: 2px;
+        height: 40px;
+        left: 9px;
+        top: 11px;
+        margin-left: -50px;
+        transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+    }
+
+    
+
+
+
+
+    
+
+}
+
 @media (max-width: 1299.98px) {
     .home-two .home-slide-text h1 {
         font-size: 40px;

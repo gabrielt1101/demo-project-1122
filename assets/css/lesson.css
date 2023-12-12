@@ -66,6 +66,329 @@ Version      : 1.0
 /*-----------------
 	1. General
 -----------------------*/
+
+@media (max-width: 1799.98px) {
+
+
+    
+
+    .settings-menu {
+        background: #fff;
+        border-radius: 15px;
+        padding-top: -8rem;
+        height: 500px;
+        margin-top: 6rem;
+        display: inline-block;
+        max-width: 130%;
+        margin-left: -60px;
+    }
+
+    .course-details-three-2 {
+        border: 1px solid #F4F4F4;
+        box-shadow: 0px 4px 14px rgba(231, 231, 231, 0.25);
+        border-radius: 10px;
+        padding: 10px;
+        background: #5c5c5c0f;
+        width: 120px;
+        height: 120px;
+        display: -ms-flexbox;
+        /*align-items: center;*/
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        top: 0;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        margin-top: 120px;
+        margin-left: 50px;
+    }
+    
+    .course-details-three-3 {
+    border: 1px solid #F4F4F4;
+	box-shadow: 0px 4px 14px rgba(231, 231, 231, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+    background: #5c5c5c0f;
+    width: 120px;
+    height: 120px;
+    display: -ms-flexbox;
+    /*align-items: center;*/
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+}
+
+@media (max-width: 1599.98px) {
+
+    
+    .settings-menu {
+        background: #fff;
+        border-radius: 15px;
+        padding-top: -8rem;
+        height: 500px;
+        margin-top: 6rem;
+        display: inline-block;
+        max-width: 100%;
+        max-height:400px;
+        margin-left: -50px;
+        margin-right: -120px;
+    }
+
+    .course-details-three-2 {
+        border: 1px solid #F4F4F4;
+        box-shadow: 0px 4px 14px rgba(231, 231, 231, 0.25);
+        border-radius: 10px;
+        padding: 10px;
+        background: #5c5c5c0f;
+        width: 120px;
+        height: 120px;
+        display: -ms-flexbox;
+        /*align-items: center;*/
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        top: 0;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        margin-top: 120px;
+        margin-left: 50px;
+    }
+    
+    .course-details-three-3 {
+    border: 1px solid #F4F4F4;
+	box-shadow: 0px 4px 14px rgba(231, 231, 231, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+    background: #5c5c5c0f;
+    width: 120px;
+    height: 120px;
+    display: -ms-flexbox;
+    /*align-items: center;*/
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+}
+
+.test{
+
+}
+
+@media (max-width: 1499.98px) {
+
+    .test{
+    display: none;
+    }
+
+    .settings-widget {
+	
+        margin-bottom: 30px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: -50px;
+    }
+
+    .settings-menu {
+        background: #fff;
+        border-radius: 15px;
+        padding-top: -8rem;
+        height: 500px;
+        margin-top: 6rem;
+        display: inline-block;
+        max-width: 100%;
+        max-height: 350px;
+        margin-left: -30px;
+        margin-right: -150px;
+        margin-bottom:70px;
+    }
+
+    .course-details-three-2 {
+        border: 1px solid #F4F4F4;
+        box-shadow: 0px 4px 14px rgba(231, 231, 231, 0.25);
+        border-radius: 10px;
+        padding: 10px;
+        background: #5c5c5c0f;
+        width: 120px;
+        height: 120px;
+        display: -ms-flexbox;
+        /*align-items: center;*/
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        top: 0;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        margin-top: 120px;
+        margin-left: 60px;
+    }
+    
+    .course-details-three-3 {
+    border: 1px solid #F4F4F4;
+	box-shadow: 0px 4px 14px rgba(231, 231, 231, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+    background: #5c5c5c0f;
+    width: 120px;
+    height: 120px;
+    display: -ms-flexbox;
+    /*align-items: center;*/
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.widget-setcount ul li p {
+    display:none;
+    display:none;
+    font-weight: 500;
+    color: #22100D;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0;
+    /*padding-top: 20px;*/
+    border-top: 4px solid #C1C9D2;
+	min-width: 173px;
+}
+
+.widget-setcount {
+    display:none;
+    padding: 0px 50px 20px;
+    /*
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(199 199 199 / 25%);
+    */
+}
+
+
+}
+
+@media (max-width: 1199.98px) {
+
+    .test{
+    display: none;
+    }
+
+    .settings-widget {
+	
+        margin-bottom: 30px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: -50px;
+    }
+
+    .settings-menu {
+        background: #fff;
+        border-radius: 15px;
+        padding-top: -8rem;
+        height: 500px;
+        margin-top: 6rem;
+        display: inline-block;
+        max-width: 200%;
+        max-height: 350px;
+        margin-left: -30px;
+        margin-right: -200px;
+        margin-bottom:70px;
+    }
+
+    .course-details-three-2 {
+        border: 1px solid #F4F4F4;
+        box-shadow: 0px 4px 14px rgba(231, 231, 231, 0.25);
+        border-radius: 10px;
+        padding: 10px;
+        background: #5c5c5c0f;
+        width: 120px;
+        height: 120px;
+        display: -ms-flexbox;
+        /*align-items: center;*/
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        top: 0;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        margin-top: 120px;
+        margin-left: 60px;
+    }
+    
+    .course-details-three-3 {
+    border: 1px solid #F4F4F4;
+	box-shadow: 0px 4px 14px rgba(231, 231, 231, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+    background: #5c5c5c0f;
+    width: 120px;
+    height: 120px;
+    display: -ms-flexbox;
+    /*align-items: center;*/
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.widget-setcount ul li p {
+    display:none;
+    display:none;
+    font-weight: 500;
+    color: #22100D;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0;
+    /*padding-top: 20px;*/
+    border-top: 4px solid #C1C9D2;
+	min-width: 173px;
+}
+
+.widget-setcount {
+    display:none;
+    padding: 0px 50px 20px;
+    /*
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(199 199 199 / 25%);
+    */
+}
+
+
+}
+
 .menu {
     display: flex;
   }

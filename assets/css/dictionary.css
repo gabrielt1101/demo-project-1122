@@ -67,6 +67,642 @@ Version      : 1.0
 	1. General
 -----------------------*/
 
+.pts{
+    font-size: 12px; 
+    font-weight: 600; 
+    margin-top: -30px; 
+    margin-left: 80px; 
+    margin-bottom: -70px ; 
+    -webkit-text-fill-color: #8A8A8A;
+}
+
+ .f1{
+    margin-left: 50px;
+}
+
+.f2{
+
+}
+
+@media (max-width: 1799.98px) {
+    .settings-menu-4 {
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        /*height: 400px;*/
+        width: 700px;
+    }
+    .settings-menu-2 {
+        /*background: #fff;*/
+        /*border-radius: 10px;*/
+        padding: 10px;
+        
+        padding-top: 40px;
+        height: 1000px;
+        width: 600px;
+        
+        margin-left: -100px;
+        margin-top: -40px;
+    }
+
+    .favourite-box-3 {
+        background: #fff;
+        border: 1px solid #DEDEDE;
+        box-shadow: 0px 4px 14px rgb(231 231 231 / 25%);
+        border-radius: 10px;
+        display: flex;
+        padding: 20px 20px 0px;
+        align-items: center;
+        height: 150px;
+        -webkit-transition: 0.7s;
+        -moz-transition: 0.7s;
+        -o-transition: 0.7s;
+        transition: 0.7s;
+        height: 90px;
+        width:40%;
+        margin-left: 10px;
+        margin-top: 10px;
+        /*margin: 20px;*/
+        -webkit-text-fill-color: #000;
+        box-shadow: 0px 0px 20px #00000029;
+        position: absolute;
+    }
+
+    .student-widget-group {
+        background: #fff;
+        padding: 0px;
+        border-radius: 10px;
+        padding-bottom: 0;
+        max-height: 620px;
+    }
+
+
+}
+
+.lb-students{
+
+}
+
+.race{
+
+}
+
+.filter-all{
+
+}
+
+.rightside{
+
+}
+.dict{
+
+}
+
+.dict-title{
+
+}
+
+
+@media (max-width: 1599.98px) {  
+    .dict{
+        
+    }    
+    .dict-title{
+        margin-left: 50px;
+        margin-right: -50px;
+        margin-top: -50px;
+        margin-bottom: 100px;
+    }
+    .rightside{
+        margin-left: -50px;
+    }
+    .filter-all{
+        margin-left: -100px;
+    }
+    .blog-widget {
+        padding: 20px;
+        border: 1px solid #e9ecef;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        width: 350px;
+        margin-left: 30px;
+        background-color: #fff;
+        margin-top: 100px;
+        max-width: 350px;
+    }
+
+    .race{
+        margin-left: 70px;
+        margin-top: -95px;
+    }
+    
+
+    .lb-students{
+        margin-left: -100px;
+    }
+
+    .settings-menu-3 {
+        visibility:hidden;
+        background-color: #DCD7E5;
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        /*height: 400px;*/
+        padding-top: -100px;
+        max-width: 600px;
+        margin-top: -50px;
+    }
+
+    .settings-menu-4 {
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        /*height: 400px;*/
+        width: 600px;
+        margin-left: 50px;
+        margin-top: -20px;
+    }
+    .settings-menu-2 {
+        /*background: #fff;*/
+        /*border-radius: 10px;*/
+        padding: 10px;
+        
+        padding-top: 40px;
+        height: 1000px;
+        width: 600px;
+        
+        margin-left: -100px;
+        margin-top: -40px;
+        max-width: 500px;
+    }
+
+    .favourite-box-3 {
+        background: #fff;
+        border: 1px solid #DEDEDE;
+        box-shadow: 0px 4px 14px rgb(231 231 231 / 25%);
+        border-radius: 10px;
+        display: flex;
+        padding: 20px 20px 0px;
+        align-items: center;
+        height: 150px;
+        -webkit-transition: 0.7s;
+        -moz-transition: 0.7s;
+        -o-transition: 0.7s;
+        transition: 0.7s;
+        height: 90px;
+        width:40%;
+        margin-left: 10px;
+        margin-top: 10px;
+        /*margin: 20px;*/
+        -webkit-text-fill-color: #000;
+        box-shadow: 0px 0px 20px #00000029;
+        position: absolute;
+    }
+
+    .student-widget-group {
+        background: #fff;
+        padding: 0px;
+        border-radius: 10px;
+        padding-bottom: 0;
+        max-height: 620px;
+    }
+}
+
+.race-name{
+    font-size: 20px; 
+    font-weight: 600; 
+    margin-top: -50px; 
+    margin-left: 60px;
+}
+
+.race-pts{
+    font-size: 12px; 
+    font-weight: 600; 
+    margin-top: -40px; 
+    margin-left: 60px; 
+    margin-bottom: -70px ; 
+    -webkit-text-fill-color: #9EA5AE;
+}
+
+.learn-friends{
+    font-weight: 600; 
+    padding-left: 50px; 
+    padding-top: 20px; 
+    -webkit-text-fill-color: #3C1053; 
+    font-size: 40px;
+}
+
+.my-friends{
+    font-weight: 600; 
+    padding-left: 50px; 
+    padding-top: 120px; 
+    -webkit-text-fill-color: #3C1053; 
+    font-size: 40px;
+}
+
+.leftside{
+        
+}
+
+@media (max-width: 1499.98px) {
+
+    .race-name{
+        font-size: 15px; 
+        font-weight: 600; 
+        margin-top: -50px; 
+        margin-left: 60px;
+    }
+
+    .learn-friends{
+        font-weight: 600; 
+        padding-left: 50px; 
+        padding-top: 20px; 
+        -webkit-text-fill-color: #3C1053; 
+        font-size: 25px;
+    }
+    
+    .my-friends{
+        font-weight: 600; 
+        padding-left: 50px; 
+        padding-top: 120px; 
+        -webkit-text-fill-color: #3C1053; 
+        font-size: 25px;
+    }
+    
+
+    .race-pts{
+        font-size: 8px; 
+        font-weight: 600; 
+        margin-top: -40px; 
+        margin-left: 60px; 
+        margin-bottom: -70px ; 
+        -webkit-text-fill-color: #9EA5AE; 
+    }
+
+    .settings-nav {
+        background: #fff;
+        border-radius: 0px;
+        padding: 0px;
+        padding-top: 8rem;
+        height: 1000px;
+        position: fixed;
+        padding-left: 100px;
+        margin-left: -100px;
+        padding-right: 125px;
+        width: 350px;
+        margin-top: -40px;
+    }
+
+    .settings-nav ul .active{
+        background: #41197b;
+        display: flex;
+        border-radius: 15px;
+        max-width: 200px;
+        margin-left: 25px;
+    }
+
+    .settings-nav ul li a {
+        color: #303030;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0;
+        border: 0 ;
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        line-height: normal;
+        padding: 20px;
+        margin-left: 25px;
+    }
+
+    .dict{
+        
+    }    
+    .dict-title{
+        margin-left: 50px;
+        margin-right: -50px;
+        margin-top: -50px;
+        margin-bottom: 100px;
+    }
+
+    .leftside{
+        margin-left: -10px;
+    }
+
+    .rightside{
+        margin-left: -80px;
+    }
+    .filter-all{
+        display:none;
+        margin-left: -100px;
+    }
+    .blog-widget {
+        display:none;
+        padding: 20px;
+        border: 1px solid #e9ecef;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        width: 350px;
+        margin-left: 30px;
+        background-color: #fff;
+        margin-top: 100px;
+        max-width: 350px;
+    }
+
+    .race{
+        margin-left: 50px;
+        margin-top: -95px;
+    }
+    
+
+    .lb-students{
+        margin-left: -170px;
+    }
+
+    .settings-menu-3 {
+        visibility:hidden;
+        background-color: #DCD7E5;
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        /*height: 400px;*/
+        padding-top: -100px;
+        max-width: 600px;
+        margin-top: -50px;
+    }
+
+    .settings-menu-4 {
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        /*height: 400px;*/
+        width: 500px;
+        margin-left: 50px;
+        margin-top: -20px;
+        max-height: 300px;
+
+    }
+    .settings-menu-2 {
+        /*background: #fff;*/
+        /*border-radius: 10px;*/
+        padding: 10px;
+        
+        padding-top: 40px;
+        height: 1000px;
+        width: 600px;
+        
+        margin-left: -100px;
+        margin-top: -40px;
+        max-width: 400px;
+    }
+
+    .favourite-box-3 {
+        background: #fff;
+        border: 1px solid #DEDEDE;
+        box-shadow: 0px 4px 14px rgb(231 231 231 / 25%);
+        border-radius: 10px;
+        display: flex;
+        padding: 20px 20px 0px;
+        align-items: center;
+        height: 150px;
+        -webkit-transition: 0.7s;
+        -moz-transition: 0.7s;
+        -o-transition: 0.7s;
+        transition: 0.7s;
+        height: 90px;
+        width:40%;
+        margin-left: 10px;
+        margin-top: 10px;
+        /*margin: 20px;*/
+        -webkit-text-fill-color: #000;
+        box-shadow: 0px 0px 20px #00000029;
+        position: absolute;
+    }
+
+    .student-widget-group {
+        background: #fff;
+        padding: 0px;
+        border-radius: 10px;
+        padding-bottom: 0;
+        max-height: 470px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .comman-space {
+        padding: 25px;
+        margin-left: 230px;
+    }
+    .race-name{
+        font-size: 15px; 
+        font-weight: 600; 
+        margin-top: -50px; 
+        margin-left: 60px;
+    }
+
+    .learn-friends{
+        font-weight: 600; 
+        padding-left: 50px; 
+        padding-top: 20px; 
+        -webkit-text-fill-color: #3C1053; 
+        font-size: 25px;
+    }
+    
+    .my-friends{
+        font-weight: 600; 
+        padding-left: 50px; 
+        padding-top: 80px; 
+        -webkit-text-fill-color: #3C1053; 
+        font-size: 25px;
+        padding-bottom: -200px;
+    }
+    
+
+    .race-pts{
+        font-size: 8px; 
+        font-weight: 600; 
+        margin-top: -40px; 
+        margin-left: 60px; 
+        margin-bottom: -70px ; 
+        -webkit-text-fill-color: #9EA5AE; 
+    }
+
+    .settings-nav {
+        background: #fff;
+        border-radius: 0px;
+        padding: 0px;
+        padding-top: 8rem;
+        height: 1000px;
+        position: fixed;
+        padding-left: 100px;
+        margin-left: -150px;
+        padding-right: 125px;
+        width: 270px;
+        margin-top: -120px;
+    }
+
+    .settings-nav ul .active{
+        background: #41197b;
+        display: flex;
+        border-radius: 15px;
+        max-width: 150px;
+        margin-left:-30px;
+    }
+
+    .settings-nav ul li a {
+        color: #303030;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0;
+        border: 0 ;
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        line-height: normal;
+        padding: 20px;
+        margin-left:-30px;
+    }
+
+    .settings-nav ul li:before {
+        opacity: 0;
+        content: "";
+        position: absolute;
+        background: #41197b;
+        width: 2px;
+        height: 40px;
+        left: 9px;
+        top: 11px;
+        margin-left: -50px;
+        transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+    }
+
+
+
+
+
+    .dict{
+        
+    }    
+    .dict-title{
+        margin-left: -40px;
+        margin-right: -50px;
+        margin-top: -50px;
+        margin-bottom: 100px;
+    }
+
+    .leftside{
+        margin-left: -10px;
+    }
+
+    .rightside{
+        margin-left: -80px;
+    }
+    .filter-all{
+        display:none;
+        margin-left: -100px;
+    }
+    .blog-widget {
+        display:none;
+        padding: 20px;
+        border: 1px solid #e9ecef;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        width: 350px;
+        margin-left: 30px;
+        background-color: #fff;
+        margin-top: 100px;
+        max-width: 350px;
+    }
+
+    .race{
+        margin-left: 250px;
+        margin-top: -95px;
+    }
+    
+
+    .lb-students{
+        margin-left: -170px;
+    }
+
+    .settings-menu-3 {
+        visibility:hidden;
+        background-color: #DCD7E5;
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        /*height: 400px;*/
+        padding-top: -100px;
+        max-width: 600px;
+        margin-top: -50px;
+    }
+
+    .settings-menu-4 {
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 8rem;
+        /*height: 400px;*/
+        width: 400px;
+        margin-left: -50px;
+        margin-top: -40px;
+        max-height: 300px;
+
+    }
+    .settings-menu-2 {
+        /*background: #fff;*/
+        /*border-radius: 10px;*/
+        padding: 10px;
+        
+        padding-top: 40px;
+        height: 1000px;
+        width: 600px;
+        
+        margin-left: -100px;
+        margin-top: -40px;
+        max-width: 400px;
+    }
+
+    .favourite-box-3 {
+        background: #fff;
+        border: 1px solid #DEDEDE;
+        box-shadow: 0px 4px 14px rgb(231 231 231 / 25%);
+        border-radius: 10px;
+        display: flex;
+        padding: 20px 20px 0px;
+        align-items: center;
+        height: 150px;
+        -webkit-transition: 0.7s;
+        -moz-transition: 0.7s;
+        -o-transition: 0.7s;
+        transition: 0.7s;
+        height: 90px;
+        width:40%;
+        margin-left: 10px;
+        margin-top: 10px;
+        /*margin: 20px;*/
+        -webkit-text-fill-color: #000;
+        box-shadow: 0px 0px 20px #00000029;
+        position: absolute;
+    }
+
+    .student-widget-group {
+        background: #fff;
+        padding: 0px;
+        border-radius: 10px;
+        padding-bottom: 0;
+        max-height: 410px;
+    }
+}
+
 .playicon{
     height: 20px;
     width: 20px;
