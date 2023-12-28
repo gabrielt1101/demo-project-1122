@@ -20767,8 +20767,9 @@ input[type=password]::-ms-clear
 
     .comman-space {
         padding: 25px;
-        margin-left: 50px;
+        margin-left: 0px;
         margin-right: 2;
+        width: 700px;
     }
 
     .heart-three {
@@ -20777,7 +20778,7 @@ input[type=password]::-ms-clear
         display: inline-block;
         right: 1rem;
         bottom: 0;
-        margin-right: 160px;
+        margin-right: 210px;
         height: 35px;
         width: 35px;
     }
@@ -20787,7 +20788,7 @@ input[type=password]::-ms-clear
         height: 51px;
         border: 3px solid #FFFFFF;
         border-radius: 50%;
-        margin-left: 100px;
+        margin-left: 140px;
     }
 
     .star1{
@@ -20900,12 +20901,12 @@ input[type=password]::-ms-clear
         display: flex;
         padding: 20px 20px 0px;
         align-items: center;
-        height: 150px;
+        height: 120px;
         -webkit-transition: 0.7s;
         -moz-transition: 0.7s;
         -o-transition: 0.7s;
         transition: 0.7s;
-        width:42%;
+        width:43.5%;
         margin: 20px;
         -webkit-text-fill-color: #fff;
     }
@@ -20917,12 +20918,12 @@ input[type=password]::-ms-clear
         display: flex;
         padding: 20px 20px 0px;
         align-items: center;
-        height: 150px;
+        height: 120px;
         -webkit-transition: 0.7s;
         -moz-transition: 0.7s;
         -o-transition: 0.7s;
         transition: 0.7s;
-        width:42%;
+        width:43.5%;
         margin: 20px;
     }
 

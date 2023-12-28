@@ -20459,7 +20459,198 @@ input[type=password]::-ms-clear
 
 }
 
+.edit1{
+    font-weight: 600; 
+    padding-left: 65px; 
+    -webkit-text-fill-color: #0077FF; 
+    font-size: 20px; 
+    margin-top: -32px; 
+    margin-left: 135px;
+}
+
+.edit2{
+    font-weight: 600; 
+    padding-left: 65px; 
+    -webkit-text-fill-color: #0077FF; 
+    font-size: 20px; 
+    margin-top: -31px; 
+    margin-left: 325px;
+}
+
+.edit3{
+    font-weight: 600; 
+    padding-left: 65px; 
+    -webkit-text-fill-color: #0077FF; 
+    font-size: 20px; 
+    margin-top: -31px; 
+    margin-left: 280px;
+}
+
+.status{
+    font-weight: 400; 
+    padding-left: 60px; 
+    padding-top: -15px; 
+    -webkit-text-fill-color: #53545C; 
+    font-size: 20px; 
+    margin-top: -25px;
+}
+
+.module{
+    font-weight: 400; 
+    padding-left: 60px; 
+    padding-top: -15px; 
+    -webkit-text-fill-color: #53545C; 
+    font-size: 20px; 
+    margin-top: 5px;
+}
+
+.assign{
+    font-weight: 400; 
+    padding-left: 60px; 
+    padding-top: -15px; 
+    -webkit-text-fill-color: #53545C; 
+    font-size: 20px; 
+    margin-top: 5px;
+}
+
+.draft{
+    font-weight: 600; 
+    padding-left: 60px; 
+    padding-top: -15px; 
+    -webkit-text-fill-color: #53545C; 
+    font-size: 20px; 
+    margin-top: -32px; 
+    margin-left: 75px;
+}
+
+.percentage{
+    font-weight: 600; 
+    padding-left: 60px; 
+    padding-top: -15px; 
+    -webkit-text-fill-color: #53545C; 
+    font-size: 20px; 
+    margin-top: -32px; 
+    margin-left: 205px;
+}
+
+.grade{
+    font-weight: 600; 
+    padding-left: 60px; 
+    padding-top: -15px; 
+    -webkit-text-fill-color: #53545C; 
+    font-size: 20px; 
+    margin-top: -32px; 
+    margin-left: 190px;
+}
+
+
+
 @media (max-width: 1499.98px) {
+
+    .ticket-btn-grp-7 a {
+        background: #0000;
+        border: 3px solid #392C7D;
+        border-radius: 15px;
+        font-size: 19px;
+        color: #fff;
+        padding: 23px 48px;
+        margin-left: -350px;
+    }
+
+    .ticket-btn-grp a {
+        background: #392C7D;
+        border: 1px solid #392C7D;
+        border-radius: 15px;
+        font-size: 19px;
+        color: #fff;
+        padding: 23px 48px;
+        margin-left: -450px;
+    }
+
+    .edit1{
+        font-weight: 600; 
+        padding-left: 65px; 
+        -webkit-text-fill-color: #0077FF; 
+        font-size: 16px; 
+        margin-top: -27.5px; 
+        margin-left: 115px;
+    }
+    
+    .edit2{
+        font-weight: 600; 
+        padding-left: 65px; 
+        -webkit-text-fill-color: #0077FF; 
+        font-size: 16px; 
+        margin-top: -27.5px; 
+        margin-left: 270px;
+    }
+    
+    .edit3{
+        font-weight: 600; 
+        padding-left: 65px; 
+        -webkit-text-fill-color: #0077FF; 
+        font-size: 16px; 
+        margin-top: -27.5px; 
+        margin-left: 230px;
+    }
+    
+    .status{
+        font-weight: 400; 
+        padding-left: 60px; 
+        padding-top: -15px; 
+        -webkit-text-fill-color: #53545C; 
+        font-size: 17px; 
+        margin-top: -25px;
+    }
+    
+    .module{
+        font-weight: 400; 
+        padding-left: 60px; 
+        padding-top: -15px; 
+        -webkit-text-fill-color: #53545C; 
+        font-size: 17px; 
+        margin-top: 15px;
+    }
+    
+    .assign{
+        font-weight: 400; 
+        padding-left: 60px; 
+        padding-top: -15px; 
+        -webkit-text-fill-color: #53545C; 
+        font-size: 17px; 
+        margin-top: 10px;
+    }
+    
+    .draft{
+        font-weight: 600; 
+        padding-left: 60px; 
+        padding-top: -15px; 
+        -webkit-text-fill-color: #53545C; 
+        font-size: 17px; 
+        margin-top: -27.5px; 
+        margin-left: 65px;
+    }
+    
+    .percentage{
+        font-weight: 600; 
+        padding-left: 60px; 
+        padding-top: -15px; 
+        -webkit-text-fill-color: #53545C; 
+        font-size: 17px; 
+        margin-top: -27.5px; 
+        margin-left: 170px;
+    }
+    
+    .grade{
+        font-weight: 600; 
+        padding-left: 60px; 
+        padding-top: -15px; 
+        -webkit-text-fill-color: #53545C; 
+        font-size: 17px; 
+        margin-top: -27.5px; 
+        margin-left: 160px;
+    }
+
     .card {
         border: 1px solid #e9ecef;
         margin-bottom: 1.875rem;
