@@ -69,7 +69,45 @@ Version      : 1.0
 
 @media (max-width: 1799.98px) {
 
+    .bill-name-group h7 {
+        color: #FF875A;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
 
+    .bill-name-group h6 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+    .bill-widget-2 {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+
+    .top-category-group {
+        align-items: center;
+        margin-left: 50px;
+        margin-right: -30px;
+        
+    }
+
+    .settings-menu h3 {
+        font-size: 18px;
+        color: #392C7D;
+        font-weight: 600;
+        margin: 5px 0px 20px;
+    }
+
+    .profile-heading h3 {
+        font-size: 50px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
     
 
     .settings-menu {
@@ -130,6 +168,45 @@ Version      : 1.0
 }
 
 @media (max-width: 1599.98px) {
+    .bill-name-group h7 {
+        color: #FF875A;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+    .bill-name-group h6 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+    .bill-widget-2 {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+
+    .top-category-group {
+        align-items: center;
+        margin-left: 50px;
+        margin-right: -30px;
+        
+    }
+
+    .settings-menu h3 {
+        font-size: 18px;
+        color: #392C7D;
+        font-weight: 600;
+        margin: 5px 0px 20px;
+    }
+
+    .profile-heading h3 {
+        font-size: 50px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
 
     
     .settings-menu {
@@ -199,7 +276,53 @@ Version      : 1.0
 
 }
 
+
+
 @media (max-width: 1499.98px) {
+
+    .bill-name-group h7 {
+        color: #FF875A;
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 2px;
+        margin-top: -20px;
+    }
+
+    .bill-name-group h6 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+
+
+    .bill-widget-2 {
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    .categories-icon {
+        margin-bottom: 12px;
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+
+    }
+
+    .top-category-group {
+        align-items: center;
+        margin-left: 0px;
+        margin-right: -50px;
+        
+    }
+
+    .settings-menu h3 {
+        font-size: 8px;
+        color: #392C7D;
+        font-weight: 600;
+        margin: 5px 0px 20px;
+    }
 
     h1, h2, h3, h4, h5, h6 {
         color: #22100D;
@@ -220,7 +343,7 @@ Version      : 1.0
     }
 
     .profile-heading h3 {
-        font-style: 50px;
+        font-size:1px;
         font-weight: 800;
         margin-bottom: 15px;
         margin-top: 20px;
@@ -230,10 +353,10 @@ Version      : 1.0
         margin-bottom: 30px;
         border-radius: 10px;
         padding: 10px;
-        margin-right: -50px;
+        margin-right: -300px;
         max-width: 600px;
         margin-top: -50px;
-        margin-left: 10px;
+        margin-left:230px;
     }
 
     .settings-menu {
@@ -243,10 +366,10 @@ Version      : 1.0
         height: 500px;
         margin-top: 6rem;
         display: inline-block;
-        max-width: 100%;
-        max-height: 350px;
-        margin-left: -30px;
-        margin-right: 10px;
+        max-width: 80%;
+        max-height: 360px;
+        margin-left: -250px;
+        margin-right:-100px;
         margin-bottom:70px;
     }
 
@@ -331,6 +454,32 @@ Version      : 1.0
 }
 
 @media (max-width: 1199.98px) {
+
+    .bill-name-group h7 {
+        color: #FF875A;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+    .bill-name-group h6 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+    .bill-widget-2 {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+
+    .top-category-group {
+        align-items: center;
+        margin-left: 50px;
+        margin-right: -30px;
+        
+    }
 
     .test{
     display: none;
@@ -3962,8 +4111,6 @@ html.menu-opened body {
 }
 .top-category-group {
     align-items: center;
-    margin-left: 50px;
-    margin-right: -30px;
     
 }
 .categories-item:hover{
@@ -17858,7 +18005,7 @@ input[type=password]::-ms-clear
     height: 1000px;
 }
 .settings-menu h3 {
-	font-size: 18px;
+	
 	color: #392C7D;
 	font-weight: 600;
 	margin: 5px 0px 20px;
@@ -18260,7 +18407,7 @@ input[type=password]::-ms-clear
 	/*border-bottom: 1px solid rgb(199 199 199 / 25%);*/
 }
 .profile-heading h3 {
-	font-size: 50px;
+    font-size: 200%;
 	font-weight: 800;
 	margin-bottom: 15px;
 	margin-top: 20px;
@@ -18508,8 +18655,6 @@ input[type=password]::-ms-clear
 }
 .bill-widget-2 {
 	width: 100%;
-	margin-bottom: 60px;
-    margin-top: 40px;
 }
 .monthly-subscribtion.comman-space {
 	padding-bottom: 15px;
@@ -18524,13 +18669,11 @@ input[type=password]::-ms-clear
 	margin-bottom: 2px;
 }
 .bill-name-group h6 {
-	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 2px;
 }
 .bill-name-group h7 {
     color: #FF875A;
-	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 2px;
 }
